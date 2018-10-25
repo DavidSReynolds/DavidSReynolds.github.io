@@ -1,0 +1,18 @@
+/* Import the website to Flex demo */
+
+/* 1.  */
+@media only screen and (min-width: 760px)
+{
+#tile-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+nav>ul 
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+}
+
