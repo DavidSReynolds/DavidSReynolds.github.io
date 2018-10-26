@@ -47,7 +47,6 @@ body{
     flex-flow: row nowrap;
     overflow-x: scroll;
     list-style-type: none;
-    
 }
 
 #templist>li{
