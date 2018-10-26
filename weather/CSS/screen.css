@@ -29,14 +29,31 @@ body{
 .blank{
     display: none;
 }
+.none{
+    display: none;
+}
+
 
 #temp{
     font-size: 4em;
+    
+}
+#hi-temp{
+    color: red;
+}
+#low-temp{
+    color: blue;
 }
 
-#sunny{
+#sunny-image{
     font-size: 3em;
+    background-image: url("/image/sunny-image.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
+
 
 #windspeed{
     font-size: 3em;
@@ -71,8 +88,6 @@ section{
     /*all large screen css rules go here*/
 }
 
-    body{
-    background-color: red;
-}
+
 
 /* ********************************* */
