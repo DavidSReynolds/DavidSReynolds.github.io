@@ -25,7 +25,7 @@ body{
 
 
 /* *3. Mobile First (styles specific to small screens) */
-
+@media 
 
 
 
@@ -35,7 +35,19 @@ body{
 .none{
     display: none;
 }
-
+.nav {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    width: 80%;
+    border: 1px: solid;
+    justify-content: center;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
 
 #temp{
     font-size: 4em;
@@ -49,7 +61,7 @@ body{
 }
 
 #sunny-image{
-    background-image: url("/image/sunny-image.jpg");
+    background-color: grey;
     background-repeat: none;
     background-size: cover;
     background-attachment: fixed;
@@ -60,16 +72,16 @@ body{
 #windspeed{
     font-size: 3em;
 }
-
+#temperature{
+    position: relative;
+    
+}
 #templist{
     display: flex;
     flex-flow: row nowrap;
     overflow-x: scroll;
     list-style-type: none;
-}
-
-#templist>li{
-    margin: 5px;
+    
 }
 
 
@@ -78,7 +90,7 @@ section{
     margin: .2em auto;
     border: 1px solid;
     border-radius: 15px;
-    width: 80%;
+    width: 50%;
     margin: auto;
     text-align: center;
     display: flex;
@@ -92,7 +104,13 @@ section{
 
 @media screen and (min-width: 750px) {
     /*all large screen css rules go here*/
+    .nav{
+        position: relative;
+        
+    }
+
 }
+
 
 
 
