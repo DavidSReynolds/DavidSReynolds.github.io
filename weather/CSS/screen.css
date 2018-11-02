@@ -24,12 +24,14 @@ body
 {
     font-family: Helvetica, sans-serif;
     font-size: 18px;
+    
 }
-
 
 /* *3. Mobile First (styles specific to small screens) */
 @media screen and (max-width:749px){
 
+   
+    
     .blank
     {
         display: none;
@@ -50,24 +52,51 @@ body
             bottom: 0;
             width: 100%;
     }
-
+    .page-nav
+    {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        border: 3px solid;
+        background-color: grey;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+    }
+    .title {
+        display: flex;
+        flex-flow: wrap;
+        align-items: flex-end;
+    }
+/* ---------------------------------------------------- */
+/* ------------Displays temperatures------------------- */
+/* ---------------------------------------------------- */
+    /* ----- size font for temperature ----- */
     #temp
     {
         font-size: 4em;
     }
-
+    /* ----- high temperature shows as red color ----- */
     #hi-temp
     {
         color: red;
     }
+    /* ----- low temperature shows as blue color ----- */
     #low-temp
     {
         color: blue;
     }
+/* ---------------------------------------------------- */
+
+/* ---------------------------------------------------- */
+/* ------------Displays background styles------------------- */
+/* ---------------------------------------------------- */
+
 
     #sunny-image
     {
-        background-color: grey;
+        background-image: url("/image/sunny-image.jpg");
         background-repeat: none;
         background-size: cover;
         background-attachment: fixed;
@@ -79,10 +108,7 @@ body
         font-size: 3em;
     }
 
-    #temperature
-    {
-        position: relative;
-    }
+    
 
     #templist ul
     {
@@ -112,7 +138,6 @@ body
         flex-direction: column;
         align-items: center;
 
-
 }
 
 
@@ -120,7 +145,12 @@ body
 
 @media screen and (min-width: 750px) {
     /*all large screen css rules go here*/
-    .nav, #page-nav
+    body
+    {
+        background-image: url("/image/sunny-image.jpg")
+    }
+    
+    .nav
     {
         position: relative;
         bottom: 0;
@@ -129,10 +159,17 @@ body
         display: flex;
         justify-content: space-between;
         font-size: 1em;
-        color: green;
     }
 
 
+    .title 
+    {
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+    }
+
+    
 }
 
 
