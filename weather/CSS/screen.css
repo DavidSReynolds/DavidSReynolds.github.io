@@ -42,10 +42,9 @@ body
     {
             list-style-type: none;
             display: flex;
-            flex-flow: row;
             width: 80%;
             border: 1px: solid;
-            justify-content: center;
+            justify-content: space-between;
             border-radius: 3px;
             position: fixed;
             bottom: 0;
@@ -85,14 +84,20 @@ body
         position: relative;
     }
 
-    #templist
+    #templist ul
     {
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: nowrap;
         overflow-x: scroll;
-        list-style-type: none;
+        align-items: center;
+        list-style: none;
     }
-
+    #templist li
+    {
+        flex: 0 0 auto;
+        padding: 0 .25em;
+        border-right: 1px solid black;
+    }
 
     section
     {
@@ -115,11 +120,18 @@ body
 
 @media screen and (min-width: 750px) {
     /*all large screen css rules go here*/
-    .nav
+    .nav, #page-nav
     {
         position: relative;
-        
+        bottom: 0;
+        left: 0;
+        width: inherit;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1em;
+        color: green;
     }
+
 
 }
 
