@@ -13,104 +13,115 @@
 
 /* *2. General Styles (for all pages and devices) */
 
-h1, h2, h3, h4, h5, h6{
+/* screen sizes */
+h1, h2, h3, h4, h5, h6
+{
     font-family: Sansita, sans serif;
     font-size: 2em;
 }
 
-body{
+body
+{
     font-family: Helvetica, sans-serif;
     font-size: 18px;
 }
 
 
 /* *3. Mobile First (styles specific to small screens) */
-@media 
+@media screen and (max-width:749px){
+
+    .blank
+    {
+        display: none;
+    }
+    .none
+    {
+        display: none;
+    }
+    .nav
+    {
+            list-style-type: none;
+            display: flex;
+            flex-flow: row;
+            width: 80%;
+            border: 1px: solid;
+            justify-content: center;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+    }
+
+    #temp
+    {
+        font-size: 4em;
+    }
+
+    #hi-temp
+    {
+        color: red;
+    }
+    #low-temp
+    {
+        color: blue;
+    }
+
+    #sunny-image
+    {
+        background-color: grey;
+        background-repeat: none;
+        background-size: cover;
+        background-attachment: fixed;
+    }
 
 
+    #windspeed
+    {
+        font-size: 3em;
+    }
 
-.blank{
-    display: none;
+    #temperature
+    {
+        position: relative;
+    }
+
+    #templist
+    {
+        display: flex;
+        flex-flow: row nowrap;
+        overflow-x: scroll;
+        list-style-type: none;
+    }
+
+
+    section
+    {
+        background-color: rgba(200,200,200,.6);
+        margin: .2em auto;
+        border: 1px solid;
+        border-radius: 15px;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
 }
-.none{
-    display: none;
-}
-.nav {
-    list-style-type: none;
-    display: flex;
-    flex-flow: row;
-    width: 80%;
-    border: 1px: solid;
-    justify-content: center;
-    border-radius: 3px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    
-}
 
-#temp{
-    font-size: 4em;
-    
-}
-#hi-temp{
-    color: red;
-}
-#low-temp{
-    color: blue;
-}
-
-#sunny-image{
-    background-color: grey;
-    background-repeat: none;
-    background-size: cover;
-    background-attachment: fixed;
-
-}
-
-
-#windspeed{
-    font-size: 3em;
-}
-#temperature{
-    position: relative;
-    
-}
-#templist{
-    display: flex;
-    flex-flow: row nowrap;
-    overflow-x: scroll;
-    list-style-type: none;
-    
-}
-
-
-section{
-    background-color: rgba(200,200,200,.6);
-    margin: .2em auto;
-    border: 1px solid;
-    border-radius: 15px;
-    width: 50%;
-    margin: auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-
-}
 
 /* *4. Large Screen Styles (Media Queries begin here) */
 
 @media screen and (min-width: 750px) {
     /*all large screen css rules go here*/
-    .nav{
+    .nav
+    {
         position: relative;
         
     }
 
 }
-
 
 
 
