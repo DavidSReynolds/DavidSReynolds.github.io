@@ -62,7 +62,7 @@ body
         background-color: grey;
         align-items: center;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .title {
         display: flex;
@@ -168,7 +168,13 @@ body
         flex-flow: wrap;
         align-items: center;
     }
-
+    #templist{
+        display: relative;
+    }
+    #templist ul
+    {
+        padding: 0%;
+    }
     
 }
 

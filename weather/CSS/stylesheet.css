@@ -13,6 +13,7 @@
 h2 {
     font-style: italic bold;
     font-family: 'Sansita';
+    
 }
 
 /*==========body text========*/
@@ -40,6 +41,7 @@ ul {
     margin: 0;
     padding: 0;
     align-content: center
+    
 }
 .nav li {
     display: inline;
