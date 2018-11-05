@@ -1,31 +1,29 @@
+/* **************************************************
+/* Styles for Screen Devices
+* Created by David Reynolds
 
-/* **************************
-/*Stylesheet for Sceened Devices
-*Created by David Reynolds
-
-*1. Includes
+*1. Includes 
 *1.1 Normalize
 *1.2 Google Fonts
 
 */
 
 @import url('https://fonts.googleapis.com/css?family=Sansita');
-@import url('/CSS/normalize.css');
+@import url('/weather/CSS/normalize.css');
 
-/* *2. General Styles (for all pages and devices) */
+/* General styles  */
 
-h1, h2, h3, h4, h5, h6{
-    font-family: Sansita, sans serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: Sansita, sans-serif;
     font-size: 2em;
 }
 
-body{
+body {
     font-family: Helvetica, sans-serif;
     font-size: 18px;
 }
 
-
-/* *3. Mobile First (styles specific to small screens) */
+/* Mobiles first for the styles (small screens) */
 
 .blank{
     display: none;
@@ -48,13 +46,11 @@ body{
     flex-flow: row nowrap;
     overflow-x: scroll;
     list-style-type: none;
-    
 }
 
 #templist>li{
     margin: 5px;
 }
-
 
 section{
     background-color: rgba(200,200,200,.6);
@@ -64,16 +60,11 @@ section{
     width: 50%;
     margin: auto;
     text-align: center;
-
 }
 
 
-/* *4. Large Screen Styles (Media Queries begin here) */
+/* 4. Large Screen Styles (Media Queries begin here) */
 
 @media screen and (min-width: 750px) {
-    /*all large screen css rules go here*/
+    /* All large screen css rules go here */
 }
-
-
-
-/* ********************************* */ 

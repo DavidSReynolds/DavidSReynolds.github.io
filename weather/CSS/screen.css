@@ -1,11 +1,11 @@
-/* **************************
-/*Stylesheet for Sceened Devices
-*Created by Ben
-
-*1. Includes
+/* *********************** 
+/*Styles for Screened Devices
+* Created by David Reynolds
+* 
+*1. Includes 
 *1.1 Normalize
 *1.2 Google Fonts
-
+*
 */
 
 @import url('https://fonts.googleapis.com/css?family=Sansita');
@@ -13,47 +13,43 @@
 
 /* *2. General Styles (for all pages and devices) */
 
-/* screen sizes */
-h1, h2, h3, h4, h5, h6
-{
-    font-family: Sansita, sans serif;
+/* Screen sizes */
+h1,h2,h3,h4,h5,h6{
+    font-family: Sansita, sans-serif;
     font-size: 2em;
 }
 
-body
-{
+.body{
     font-family: Helvetica, sans-serif;
     font-size: 18px;
-    
 }
 
-/* *3. Mobile First (styles specific to small screens) */
-@media screen and (max-width:749px){
+/* *3. Mobile First (Styles specific to small screens) */
 
-   
-    
-    .blank
-    {
+@media screen and (max-width: 749px){
+
+    .blank{
         display: none;
     }
-    .none
-    {
+
+    .none{
         display: none;
     }
+
     .nav
     {
-            list-style-type: none;
-            display: flex;
-            width: 80%;
-            border: 1px: solid;
-            justify-content: space-between;
-            border-radius: 3px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        list-style-type: none;
+        display: flex;
+        width: 80%;
+        border: 1px solid;
+        justify-content: space-between;
+        border-radius: 3px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
     }
-    .page-nav
-    {
+
+    .page-nav{
         position: fixed;
         bottom: 0;
         right: 0;
@@ -64,69 +60,57 @@ body
         display: flex;
         justify-content: space-between;
     }
-    .title {
+    .title{
         display: flex;
         flex-flow: wrap;
         align-items: flex-end;
     }
-/* ---------------------------------------------------- */
-/* ------------Displays temperatures------------------- */
-/* ---------------------------------------------------- */
-    /* ----- size font for temperature ----- */
-    #temp
-    {
+
+    #temp{
         font-size: 4em;
     }
-    /* ----- high temperature shows as red color ----- */
-    #hi-temp
-    {
+
+    #hi-temp{
         color: red;
     }
-    /* ----- low temperature shows as blue color ----- */
-    #low-temp
-    {
+
+    #low-temp{
         color: blue;
     }
-/* ---------------------------------------------------- */
-
-/* ---------------------------------------------------- */
-/* ------------Displays background styles------------------- */
-/* ---------------------------------------------------- */
-
-
-    #sunny-image
-    {
-        background-image: url("/image/sunny-image.jpg");
+    #sunny-image{
+        background-image: url('/image/sunny-image.jpg');
         background-repeat: none;
         background-size: cover;
         background-attachment: fixed;
     }
-
+    #raindrops-image{
+        background-image: url('/image/raindrops.jpg');
+        background-repeat: none;
+        background-size: cover;
+        background-attachment: fixed;
+    }
 
     #windspeed
     {
         font-size: 3em;
     }
 
-    
-
-    #templist ul
-    {
+    #templist ul{
         display: flex;
         flex-flow: nowrap;
         overflow-x: scroll;
         align-items: center;
         list-style: none;
     }
-    #templist li
-    {
+
+    #templist li{
         flex: 0 0 auto;
         padding: 0 .25em;
         border-right: 1px solid black;
+        flex-flow: column;
     }
 
-    section
-    {
+    section{
         background-color: rgba(200,200,200,.6);
         margin: .2em auto;
         border: 1px solid;
@@ -137,21 +121,17 @@ body
         display: flex;
         flex-direction: column;
         align-items: center;
-
-}
-
+    }
 
 /* *4. Large Screen Styles (Media Queries begin here) */
 
-@media screen and (min-width: 750px) {
-    /*all large screen css rules go here*/
-    body
-    {
-        background-image: url("/image/sunny-image.jpg")
+@media screen and (min-width: 750px){
+    /* all large screen css rules go here */
+    body{
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
     }
-    
-    .nav
-    {
+    .nav{
         position: relative;
         bottom: 0;
         left: 0;
@@ -161,23 +141,43 @@ body
         font-size: 1em;
     }
 
-
-    .title 
-    {
+    .title{
         display: flex;
         flex-flow: wrap;
         align-items: center;
     }
+
     #templist{
         display: relative;
     }
-    #templist ul
-    {
+    #templist ul{
         padding: 0%;
     }
-    
+
+    #sunny-image{
+        background-image: url('/image/sunny-image.jpg');
+        background-repeat: none;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #raindrops-image{
+        background-image: url('/image/raindrops.jpg');
+        background-repeat: none;
+        background-size: cover;
+        background-attachment: fixed;
+
 }
 
 
 
-/* ********************************* */
+
+
+
+
+
+
+
+
+
+
+}
