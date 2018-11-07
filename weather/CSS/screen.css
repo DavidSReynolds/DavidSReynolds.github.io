@@ -28,6 +28,8 @@ h1,h2,h3,h4,h5,h6{
 
 @media screen and (max-width: 749px){
 
+    
+
     .blank{
         display: none;
     }
@@ -35,31 +37,11 @@ h1,h2,h3,h4,h5,h6{
     .none{
         display: none;
     }
-
-    .nav
+    #windspeed
     {
-        list-style-type: none;
-        display: flex;
-        width: 80%;
-        border: 1px solid;
-        justify-content: space-between;
-        border-radius: 3px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
+        font-size: 3em;
     }
 
-    .page-nav{
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        border: 3px solid;
-        background-color: grey;
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-    }
     .title{
         display: flex;
         flex-flow: wrap;
@@ -69,36 +51,44 @@ h1,h2,h3,h4,h5,h6{
     #temp{
         font-size: 4em;
     }
-
+    /* it keeps the title by the logo */
+    header {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    /* it goes on bottom of the device */
+    .page-nav{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        border: 2   px solid;
+        background-color: grey;
+        align-items: center;
+        display: flex;
+        flex-flow: row nowrap; 
+        justify-content: space-around;
+    }
+    /* color it will show as red for hot */
     #hi-temp{
         color: red;
     }
+    /* color it will show as blue for cold */
 
     #low-temp{
         color: blue;
     }
-    #sunny-image{
+    
+    #backgroundimage{
         background-image: url('/image/sunny-image.jpg');
         background-repeat: none;
         background-size: cover;
         background-attachment: fixed;
     }
-    #raindrops-image{
-        background-image: url('/image/raindrops.jpg');
-        background-repeat: none;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    #windspeed
-    {
-        font-size: 3em;
-    }
-
+   
     #templist ul{
         display: flex;
         flex-flow: nowrap;
-        overflow-x: scroll;
         align-items: center;
         list-style: none;
     }
@@ -131,15 +121,6 @@ h1,h2,h3,h4,h5,h6{
         font-family: Helvetica, sans-serif;
         font-size: 18px;
     }
-    .nav{
-        position: relative;
-        bottom: 0;
-        left: 0;
-        width: inherit;
-        display: flex;
-        justify-content: space-between;
-        font-size: 1em;
-    }
 
     .title{
         display: flex;
@@ -147,18 +128,36 @@ h1,h2,h3,h4,h5,h6{
         align-items: center;
     }
 
+    header {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    #page-nav{
+        position: static;
+        justify-content: flex-start;
+    }
+    #page-nav a {
+        padding: 0 25px;
+    }
+    
+
     #templist{
         display: relative;
     }
     #templist ul{
         padding: 0%;
+        flex-flow: column;
     }
 
-    #sunny-image{
+    #backgroundimage  {
         background-image: url('/image/sunny-image.jpg');
         background-repeat: none;
         background-size: cover;
         background-attachment: fixed;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
     }
     #raindrops-image{
         background-image: url('/image/raindrops.jpg');
