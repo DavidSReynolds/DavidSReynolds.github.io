@@ -93,14 +93,14 @@ h1,h2,h3,h4,h5,h6{
     }
     
     #backgroundimage{
-        background-image: url('/image/sunny-image.jpg');
+        background-image: url('/image/raindrops.jpg');
         background-repeat: none;
         background-size: cover;
         background-attachment: fixed;
     }
 
     #templist {
-        background-color: lightblue;
+        background-color: grey;
     }
     #templist ul{
         display: flex;
@@ -190,7 +190,7 @@ h1,h2,h3,h4,h5,h6{
     #templist{
         display: relative;
         display: flex;
-        background-color: lightblue;
+        background-color: grey;
         width: 90%;
     }
     #templist ul{
