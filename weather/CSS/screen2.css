@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5,h6{
 
     }
 
-    .idaho {
+    .greenville {
         display: flex;
         justify-content: center;
     }
@@ -93,14 +93,14 @@ h1,h2,h3,h4,h5,h6{
     }
     
     #backgroundimage{
-        background-image: url('/image/raindrops.jpg');
+        background-image: url('/image/sunny-image.jpg');
         background-repeat: none;
         background-size: cover;
         background-attachment: fixed;
     }
 
     #templist {
-        background-color: grey;
+        background-color: lightblue;
     }
     #templist ul{
         display: flex;
@@ -155,7 +155,7 @@ h1,h2,h3,h4,h5,h6{
         justify-content: flex-start;
     }
 
-    .idaho {
+    .greenville {
         display: flex;
         justify-content: flex-start;
     }
@@ -190,7 +190,7 @@ h1,h2,h3,h4,h5,h6{
     #templist{
         display: relative;
         display: flex;
-        background-color: grey;
+        background-color: lightblue;
         width: 90%;
     }
     #templist ul{
