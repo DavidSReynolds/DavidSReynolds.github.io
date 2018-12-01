@@ -1,0 +1,34 @@
+/* Small screen========================= */
+ 
+h2{
+    font-size: 2em;
+}
+ 
+@media screen and (max-width: 749px){
+    
+    .large{
+        display: none;
+    }
+ 
+    section {
+        border: 2px solid;
+        box-sizing: border-box;        
+    }
+ 
+    
+}
+ 
+ 
+ 
+/* large screen====================== */
+ 
+@media screen and (min-width: 750px){
+ 
+    section {
+        border: 2px solid;
+        margin: 5vw;
+    }
+    .small{
+        display: none;
+    }
+}
