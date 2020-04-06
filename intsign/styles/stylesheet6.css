@@ -1,0 +1,560 @@
+@media (max-width: 480px) {
+
+    /*==============body styles===========*/
+    body {
+        background-color: red;
+    }
+
+    body {
+        background-image: url("/asl.images/international-flag.jpg");
+        background-size: contain;
+        background-repeat: round;
+        width: 390px;
+    }
+
+    /*==============heading styles===========*/
+
+    #header1 {
+        text-align: center;
+        font-size: x-large;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        width: 393px;
+    }
+
+    /*==============top menu styles===========*/
+
+    nav {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: black;
+        font-size: x-large;
+        padding-left: 71px;
+    }
+
+    .navigation {
+        list-style: none;
+        padding: 0;
+        margin: 5px;
+    }
+
+    .navigation li:first-child {
+        display: block;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation a {
+        display: block;
+        color: black;
+        background-color: gray;
+        width: 300px;
+        padding: 0.75rem;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .navigation a:hover {
+        color: orange;
+        background-color: black;
+        font-weight: 700;
+    }
+
+    /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+      <ul class="navigation responsive">
+      */
+    .responsive li {
+        display: block;
+    }
+
+    /*==============main styles===========*/
+
+    #main {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        background-color: black;
+        width: 400px;
+    }
+
+    /*==============left-side styles===========*/
+
+    #left-side {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        bottom: 5px;
+    }
+
+    /*==============image styles===========*/
+
+    img {
+        width: 66px;
+        border: 5px solid black;
+    }
+
+    .pic {
+        width: 100px;
+    }
+
+
+    /*==============middle-side styles===========*/
+
+    #middle-side {
+        display: inline-grid;
+        justify-items: center;
+        margin-left: 77px;
+    }
+
+    /*==============next list style========== */
+
+    .ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .page {
+        background-color: black;
+        font-size: 20px;
+    }
+
+    .page .ul {
+        margin: 5px;
+        padding: 0px;
+        list-style-type: none;
+        color: white;
+        background-color: black;
+    }
+
+    .page li a {
+        color: white;
+        margin: 3px;
+        text-decoration: none;
+        border: 3px solid orange;
+    }
+
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        background-color: gray;
+    }
+
+    .grid-item {
+        background-color: gray;
+        border: 3px solid black;
+        text-align: center;
+    }
+
+    .grid-item h1,
+    .grid-item p {
+        background-color: black;
+        color: white;
+    }
+
+    p {
+        font-size: 23px;
+    }
+
+    /*==============footer styles===========*/
+
+    footer {
+        background-color: black;
+        width: 390px;
+    }
+
+    /*==============bottom-side styles===========*/
+
+    #bottom-side {
+        position: relative;
+        left: 75px;
+        width: 325px;
+        background-color: gray;
+        display: inline-grid;
+    }
+
+    .foot1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        border: solid 5px;
+    }
+
+    .info {
+        background-color: black;
+        margin: 5px;
+    }
+
+    .h4 {
+        text-align: center;
+        color: white;
+        font-size: large;
+    }
+
+    .add {
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+        font-size: large;
+    }
+
+    .web {
+        justify-content: center;
+        text-decoration: underline;
+        font-size: large;
+        color: white;
+    }
+
+    .link {
+        text-align: center;
+        font-size: large;
+        color: white;
+        background-color: black;
+        margin: 5px;
+    }
+
+    /*==============bottom page styles===========*/
+
+    .bpage {
+        text-align: center;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        position: relative;
+        width: 320px;
+        left: 75px;
+    }
+
+    .bottom {
+        font-size: large;
+    }
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+/* @media (min-width: 481px) and (max-width: 767px) {
+
+    body {
+        background-color: yellow;
+    }
+
+    body {
+        background-image: url("/asl.images/international-flag.jpg");
+        background-size: contain;
+        background-repeat: round;
+        width: 390px;
+    }
+} */
+
+/* Media Query for Tablets Ipads portrait mode */
+/* @media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-color: purple;
+    }
+
+    body {
+        background-image: url("/asl.images/international-flag.jpg");
+        background-size: contain;
+        background-repeat: round;
+        width: 390px;
+    }
+} */
+
+/* Media Query for Laptops and Desktops */
+/* @media (min-width: 1024px) and (max-width: 1280px) {
+    body {
+        background-color: green;
+    }
+
+    body {
+        background-image: url("/asl.images/international-flag.jpg");
+        background-size: contain;
+        background-repeat: round;
+        width: 390px;
+    }
+} */
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+        background-color: blue;
+    }
+
+    body {
+        background-image: url("/asl.images/international-flag.jpg");
+        background-size: contain;
+        background-repeat: round;
+        width: 390px;
+    }
+
+    /*==============heading styles===========*/
+
+    #header1 {
+        text-align: center;
+        font-size: 35px;
+        color: darkorange;
+        background-color: black;
+        border: 5px solid orange;
+        width: 2100px;
+        margin-left: 150px;
+    }
+
+    /*==============top menu styles===========*/
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 10px;
+    }
+
+    #list {
+        text-align: center;
+        width: 2110px;
+        margin-left: 150px;
+        background-color: gray;
+    }
+
+    a {
+        font-size: 35px;
+        color: black;
+        padding: 1px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul {
+
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        display: inline-block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /*==============main styles===========*/
+
+    #main {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        background-color: black;
+        width: 2260px;
+    }
+
+    .title {
+        font-size: 85px;
+    }
+
+    /*==============left-side styles===========*/
+
+    #left-side {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        bottom: 5px;
+    }
+
+    /*==============image styles===========*/
+
+    img {
+        width: 138px;
+        border: 5px solid black;
+    }
+
+    .source {
+        width: 300px;
+    }
+
+    .source1 {
+        width: 230px;
+    }
+
+    .pic {
+        width: 300px;
+    }
+
+    .full {
+        width: 925px;
+    }
+
+
+    /*==============middle-side styles===========*/
+
+    #middle-side {
+        display: inline-grid;
+        justify-items: center;
+        margin-left: 235px;
+    }
+
+    .title1 {
+        font-size: 75px;
+    }
+
+
+    /*==============next list style========== */
+
+    .page li a {
+        color: white;
+        margin: 15px;
+        text-decoration: none;
+        border: 5px solid orange;
+    }
+
+    .page ul {
+        margin: 5px;
+        list-style-type: none;
+    }
+
+    .grid-container {
+        float: left;
+        display: inline-grid;
+        grid-template-columns: auto;
+        background-color: gray;
+        padding: 1px;
+    }
+
+    .grid-item {
+        background-color: gray;
+        border: 3px solid black;
+        font-size: large;
+        text-align: center;
+    }
+
+    .grid-item h1,
+    .grid-item p {
+        background-color: black;
+        color: white;
+    }
+
+    #grids {
+        column-count: 2;
+        column-gap: 40px;
+    }
+
+    .grid-container1 {
+        float: left;
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        background-color: gray;
+        padding: 1px;
+    }
+
+    .grid-item1 {
+        background-color: gray;
+        border: 3px solid black;
+        font-size: large;
+        text-align: center;
+    }
+
+    .grid-item1 h1,
+    .grid-item1 p {
+        background-color: black;
+        color: white;
+    }
+
+    .grid-container2 {
+        float: right;
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        background-color: gray;
+        padding: 1px;
+    }
+
+    .grid-item2 {
+        background-color: gray;
+        border: 3px solid black;
+        font-size: large;
+        text-align: center;
+    }
+
+    .grid-item2 h1,
+    .grid-item2 p {
+        background-color: black;
+        color: white;
+    }
+
+    p {
+        font-size: 40px;
+        margin: 10px;
+    }
+
+    /*==============footer styles===========*/
+
+    footer {
+        background-color: black;
+        width: 2260px;
+    }
+
+    /*==============bottom-side styles===========*/
+
+    #bottom-side {
+        position: relative;
+        left: 900px;
+        width: 655px;
+        background-color: gray;
+        display: inline-grid;
+    }
+
+    .foot1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        border: solid 5px;
+    }
+
+    .info {
+        background-color: black;
+        margin: 10px;
+        width: 305px;
+    }
+
+    .h4 {
+        text-align: center;
+        color: white;
+        font-size: 35px;
+    }
+
+    .add {
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+        font-size: 35px;
+    }
+
+    .web {
+        justify-content: center;
+        text-decoration: underline;
+        font-size: 35px;
+        color: white;
+    }
+
+    .link {
+        text-align: center;
+        font-size: 35px;
+        color: white;
+        background-color: black;
+        margin: 10px;
+        width: 305px;
+    }
+
+    /*==============bottom page styles===========*/
+
+    .bpage {
+        text-align: center;
+        color: darkorange;
+        background-color: black;
+        border: 5px solid orange;
+        position: relative;
+        width: 2102px;
+        left: 150px;
+    }
+
+    .bottom {
+        font-size: 30px;
+    }
+}

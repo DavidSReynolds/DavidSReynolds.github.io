@@ -1,0 +1,1485 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+
+    /*==============stylesheet2 for program, about, contact, and languagess=========== */
+    /*==============body styles===========*/
+    body {
+        background-color: red;
+    }
+
+    body {
+        background-image: url("/asl.images/international-flag.jpg");
+        background-size: contain;
+        background-repeat: round;
+        width: 390px;
+    }
+
+    /*==============heading styles===========*/
+
+    #header1 {
+        text-align: center;
+        font-size: x-large;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        width: 395px;
+    }
+
+    /*==============top menu styles===========*/
+
+    nav {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: black;
+        font-size: x-large;
+        padding-left: 75px;
+    }
+
+    .navigation {
+        list-style: none;
+        padding: 0;
+        margin: 5px;
+    }
+
+    .navigation li:first-child {
+        display: block;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation a {
+        display: block;
+        color: black;
+        background-color: gray;
+        padding: 0.75rem;
+        width: 300px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .navigation a:hover {
+        color: orange;
+        background-color: black;
+        font-weight: 700;
+    }
+
+    /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+      <ul class="navigation responsive">
+      */
+    .responsive li {
+        display: block;
+    }
+
+    /*==============main styles===========*/
+
+    #main {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        background-color: black;
+        width: 400px;
+    }
+
+    /*==============left-side styles===========*/
+
+    #left-side {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 5px;
+    }
+
+    /*==============image styles===========*/
+
+    img {
+        width: 70.7px;
+        border: 5px solid black;
+    }
+
+    /*==============top page image styles===========*/
+    #image1 {
+        text-align: center;
+        background-color: black;
+    }
+
+    video {
+        width: 300px;
+    }
+
+    /*==============middle-side styles===========*/
+
+    #middle-side {
+        padding-left: 85px;
+        display: inline-grid;
+        justify-items: center;
+        margin-left: 0px;
+    }
+
+    #ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .page {
+        background-color: black;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .page ul {
+        margin: 5px;
+        padding: 0px;
+        list-style-type: none;
+        color: white;
+        border: 3px solid orange;
+    }
+
+    .page li a {
+        color: white;
+        margin: 5px;
+        text-decoration: none;
+    }
+
+    #title {
+        font-size: 35px;
+    }
+
+    .grid-container {
+        background-color: gray;
+        padding: 0px;
+    }
+    .grid-container2 {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        background-color: gray;
+        padding: 0px;
+    }
+
+    .grid-item2 {
+        border: 3px solid black;
+    }
+
+    .grid-item h1,
+    .grid-item p {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+    }
+    .grid-item2 h1,
+    .grid-item2 p {
+        text-align: center;
+        margin: 0px;
+        border: 5px solid orange;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+    }
+
+    .ul {
+        padding: 0px;
+    }
+    li {
+        text-align: center;
+        list-style: none;
+    }
+    .li {
+        padding: 5px;
+    }
+
+    #asl{
+        text-decoration: none;
+        background-color: black;
+        color: white;
+    }
+    #ish{
+        text-decoration: none;
+        background-color: black;
+        color: white;
+    }
+
+    #ksl{
+        text-decoration: none;
+        background-color: black;
+        color: white;
+    }
+
+    #sasl{
+        text-decoration: none;
+        background-color: black;
+        color: white;
+    }
+
+    #tsl{
+        text-decoration: none;
+        background-color: black;
+        color: white;
+    }
+
+    #lang {
+        text-decoration: none;
+        background-color: black;
+        color: white;
+    }
+
+    /*==============footer styles===========*/
+
+    footer {
+        background-color: black;
+        width: 400px;
+    }
+
+    /*==============bottom-side styles===========*/
+
+    #bottom-side {
+        position: relative;
+        left: 80px;
+        width: 315px;
+        background-color: gray;
+        display: inline-grid;
+    }
+
+    .foot1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        border: solid 5px;
+        justify-content: center;
+    }
+
+    .info {
+        color: white;
+        background-color: black;
+        margin: 5px;
+    }
+
+    .h4 {
+        text-align: center;
+        color: white;
+        font-size: large;
+    }
+
+    .add {
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+        font-size: large;
+    }
+
+    .web {
+        justify-content: center;
+        text-decoration: underline;
+        font-size: large;
+        color: white;
+    }
+
+    .link {
+        text-align: center;
+        font-size: large;
+        color: white;
+        background-color: black;
+        margin: 5px;
+    }
+
+    /*==============bottom page styles===========*/
+
+    .bpage {
+        text-align: center;
+        font-size: large;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        position: relative;
+        width: 315px;
+        left: 80px;
+    }
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+
+    body {
+        background-color: yellow;
+    }
+
+    body {
+        background-image: url("/asl.images/international-flag.jpg");
+        background-size: contain;
+        background-repeat: round;
+        width: 390px;
+    }
+
+    /*==============heading styles===========*/
+
+    #header1 {
+        text-align: center;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        width: 656px;
+        margin-left: 53px;
+    }
+
+    /*==============top menu styles===========*/
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 5px;
+    }
+
+    #list {
+        text-align: center;
+        width: 665px;
+        margin-left: 50px;
+        background-color: gray;
+    }
+
+    a {
+        color: black;
+        font-size: 17.5px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul {
+        margin: 0;
+    }
+
+    ul li {
+        display: inline-block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /*==============main styles===========*/
+
+    #title {
+        font-size: 35px;
+    }
+
+    #main {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        background-color: black;
+        width: 718px;
+    }
+    
+    #title2 {
+        font-size: 35px;
+    }
+
+    /*==============left-side styles===========*/
+
+    #left-side {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 0px;
+    }
+
+    /*==============image styles===========*/
+
+    img {
+        border: 5px solid black;
+        width: 42px;
+    }
+
+    /*==============top page image styles===========*/
+    /*==============welcome gif=====================*/
+    #image1 {
+        text-align: center;
+        background-color: black;
+    }
+
+    video {
+        width: 450px;
+    }
+
+    /*==============middle-side styles===========*/
+
+    #middle-side {
+        padding-left: 175px;
+        display: inline-grid;
+        justify-items: center;
+        margin-left: 5px;
+    }
+
+    #ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .page {
+        background-color: black;
+        font-size: 20px;
+    }
+
+    .page #ul {
+        margin: 5px;
+        padding: 0px;
+        list-style-type: none;
+        color: white;
+        background-color: black;
+        border: 3px solid orange;
+    }
+
+    .page li a {
+        color: white;
+        margin: 5px;
+        text-decoration: none;
+    }
+
+    #title {
+        font-size: 35px;
+    }
+
+    .grid-container {
+        background-color: gray;
+        padding: 0px;
+    }
+    .grid-container2 {
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        background-color: gray;
+        padding: 0px;
+    }
+
+    .grid-item2 {
+        border: 3px solid black;
+    }
+
+    .grid-item h1,
+    .grid-item p {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        
+    }
+
+    .grid-item2 h1,
+    .grid-item2 p {
+        text-align: center;
+        margin: 0px;
+        border: 5px solid orange;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+    }
+
+    .ul {
+        text-align: center;
+        padding: 0px;
+    }
+    li {
+        list-style: none;
+    }
+    .li {
+        padding: 5px;
+    }
+
+    #asl{
+        background-color: black;
+        color: white;
+
+    }
+    #ish{
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+
+    #ksl{
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+
+    #sasl{
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+
+    #tsl{
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+
+    #lang {
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+
+    /*==============footer styles===========*/
+
+    footer {
+        background-color: black;
+        width: 718px;
+    }
+
+    /*==============bottom-side styles===========*/
+
+    #bottom-side {
+        position: relative;
+        left: 255px;
+        width: 310px;
+        background-color: gray;
+        display: inline-grid;
+    }
+
+    .foot1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        border: solid 5px;
+        justify-content: center;
+    }
+
+    .info {
+        color: white;
+        background-color: black;
+        margin: 5px;
+    }
+
+    .h4 {
+        text-align: center;
+        color: white;
+        font-size: large;
+    }
+
+    .add {
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+        font-size: large;
+    }
+
+    .web {
+        justify-content: center;
+        text-decoration: underline;
+        font-size: large;
+        color: white;
+    }
+
+    .link {
+        text-align: center;
+        font-size: large;
+        color: white;
+        background-color: black;
+        margin: 5px;
+    }
+
+    /*==============bottom page styles===========*/
+
+    .bpage {
+        text-align: center;
+        font-size: large;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        position: relative;
+        width: 665px;
+        left: 50px;
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-color: purple;
+    }
+
+    body {
+        background-image: url("/asl.images/international-flag.jpg");
+        background-size: contain;
+        background-repeat: round;
+        width: 390px;
+    }
+
+    /*==============heading styles===========*/
+
+    #header1 {
+        text-align: center;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        width: 605px;
+        margin-left: 135px;
+    }
+
+    /*==============top menu styles===========*/
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 5px;
+    }
+
+    #list {
+        text-align: center;
+        width: 655px;
+        margin-left: 90px;
+        background-color: gray;
+    }
+
+    a {
+        color: black;
+        font-size: 23px;
+        padding: 1px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        display: inline-block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /*==============main styles===========*/
+
+    #title {
+        font-size: 40px;
+    }
+
+    #main {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        background-color: black;
+        width: 745px;
+    }
+
+    #title2 {
+        font-size: 40px;
+    }
+
+    /*==============left-side styles===========*/
+
+    #left-side {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 50px;
+    }
+
+    /*==============image styles===========*/
+
+    img {
+        border: 5px solid black;
+        width: 124px;
+    }
+
+    /*==============top page image styles===========*/
+    /*==============welcome gif=====================*/
+    #image1 {
+        text-align: center;
+        background-color: black;
+    }
+
+    video {
+        width: 520px;
+    }
+
+    /*==============middle-side styles===========*/
+
+    #middle-side {
+        display: inline-grid;
+        justify-items: center;
+        margin-left: 165px;
+    }
+
+    #ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .page {
+        background-color: black;
+        font-size: 20px;
+    }
+
+    .page #ul {
+        margin: 5px;
+        padding: 0px;
+        list-style-type: none;
+        color: white;
+        background-color: black;
+        border: 3px solid orange;
+    }
+
+    .page li a {
+        color: white;
+        margin: 5px;
+        text-decoration: none;
+    }
+
+    #title {
+        font-size: 35px;
+    }
+
+    .grid-container {
+        background-color: gray;
+        padding: 0px;
+    }
+    .grid-container2 {
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        background-color: gray;
+        padding: 0px;
+    }
+
+    .grid-item2 {
+        border: 3px solid black;
+    }
+
+    .grid-item h1,
+    .grid-item p {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        
+    }
+
+    .grid-item2 h1,
+    .grid-item2 p {
+        text-align: center;
+        margin: 0px;
+        border: 5px solid orange;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+    }
+
+    .ul {
+        text-align: center;
+        padding: 0px;
+    }
+    li {
+        list-style: none;
+    }
+    .li {
+        padding: 5px;
+    }
+
+    #asl{
+        background-color: black;
+        color: white;
+
+    }
+    #ish{
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+
+    #ksl{
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+
+    #sasl{
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+
+    #tsl{
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+
+    #lang {
+        justify-content: center;
+        background-color: black;
+        color: white;
+        font-size: 21px;
+    }
+
+    /*==============footer styles===========*/
+
+    footer {
+        background-color: black;
+        width: 745px;
+    }
+
+    /*==============bottom-side styles===========*/
+
+    #bottom-side {
+        position: relative;
+        left: 215px;
+        background-color: gray;
+        display: inline-grid;
+    }
+
+    .foot1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        border: solid 5px;
+        justify-content: center;
+    }
+
+    .info {
+        color: white;
+        background-color: black;
+        margin: 5px;
+    }
+
+    .h4 {
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+
+    .add {
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+        font-size: 30px;
+    }
+
+    .web {
+        justify-content: center;
+        text-decoration: underline;
+        font-size: 30px;
+        color: white;
+    }
+
+    .link {
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        background-color: black;
+        margin: 5px;
+    }
+
+    /*==============bottom page styles===========*/
+
+    .bpage {
+        text-align: center;
+        font-size: 25px;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        position: relative;
+        width: 607px;
+        left: 132px;
+    }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1024px) and (max-width: 1280px) {
+    body {
+        background-color: green;
+    }
+
+    body {
+        background-image: url("/asl.images/international-flag.jpg");
+        background-size: contain;
+        background-repeat: round;
+        width: 390px;
+    }
+
+    /*==============heading styles===========*/
+
+    #header1 {
+        text-align: center;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        width: 900px;
+        margin-left: 103px;
+    }
+
+    /*==============top menu styles===========*/
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 10px;
+    }
+
+    #list {
+        text-align: center;
+        margin-left: 100px;
+        width: 910px;
+        background-color: gray;
+    }
+
+    a {
+        color: black;
+        font-size: 25px;
+        padding: 1px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul {
+
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        display: inline-block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /*==============main styles===========*/
+
+    #title {
+        font-size: 45px;
+    }
+
+    #main {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        background-color: black;
+        width: 1010px;
+    }
+
+    #title2 {
+        font-size: 45px;
+    }
+
+    /*==============left-side styles===========*/
+
+    #left-side {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 10px;
+    }
+
+    /*==============image styles===========*/
+
+    img {
+        border: 5px solid black;
+        width: 90px;
+    }
+
+    /*==============top page image styles===========*/
+    /*==============welcome gif=====================*/
+    #image1 {
+        text-align: center;
+        background-color: black;
+    }
+
+    video {
+        width: 800px;
+    }
+
+    /*==============middle-side styles===========*/
+
+    #middle-side {
+        display: inline-grid;
+        justify-items: center;
+        margin-left: 165px;
+    }
+
+    #ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .page {
+        background-color: black;
+        font-size: 20px;
+    }
+
+    .page #ul {
+        margin: 5px;
+        padding: 0px;
+        list-style-type: none;
+        color: white;
+        background-color: black;
+        border: 3px solid orange;
+    }
+
+    .page li a {
+        color: white;
+        margin: 5px;
+        text-decoration: none;
+    }
+
+    #title {
+        font-size: 35px;
+    }
+
+    .grid-container {
+        background-color: gray;
+        padding: 0px;
+    }
+    .grid-container2 {
+        display: inline-grid;
+        grid-template-columns: auto auto auto auto;
+        background-color: gray;
+        padding: 0px;
+    }
+
+    .grid-item2 {
+        border: 3px solid black;
+    }
+
+    .grid-item h1,
+    .grid-item p {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        
+    }
+
+    .grid-item2 h1,
+    .grid-item2 p {
+        text-align: center;
+        margin: 0px;
+        border: 5px solid orange;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+    }
+
+    .ul {
+        text-align: center;
+        padding: 0px;
+    }
+    li {
+        list-style: none;
+    }
+    .li {
+        padding: 5px;
+    }
+
+    #asl{
+        background-color: black;
+        color: white;
+
+    }
+    #ish{
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+
+    #ksl{
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+
+    #sasl{
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+
+    #tsl{
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+
+    #lang {
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+
+    /*==============footer styles===========*/
+
+    footer {
+        background-color: black;
+        width: 1015px;
+    }
+
+    /*==============bottom-side styles===========*/
+
+    #bottom-side {
+        position: relative;
+        left: 315px;
+        background-color: gray;
+        display: inline-grid;
+    }
+
+    .foot1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        border: solid 5px;
+        justify-content: center;
+    }
+
+    .info {
+        color: white;
+        background-color: black;
+        margin: 5px;
+    }
+
+    .intro {
+        font-size: 35px;
+    }
+
+    .h4 {
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+
+    .add {
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+        font-size: 30px;
+    }
+
+    .web {
+        justify-content: center;
+        text-decoration: underline;
+        font-size: 30px;
+        color: white;
+    }
+
+    .link {
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        background-color: black;
+        margin: 5px;
+    }
+
+    /*==============bottom page styles===========*/
+
+    .bpage {
+        text-align: center;
+        font-size: 25px;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        position: relative;
+        width: 915px;
+        left: 100px;
+    }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+        background-color: blue;
+    }
+
+    body {
+        background-image: url("/asl.images/international-flag.jpg");
+        background-size: contain;
+        background-repeat: round;
+        width: 390px;
+    }
+
+    /*==============heading styles===========*/
+
+    #header1 {
+        text-align: center;
+        color: darkorange;
+        background-color: black;
+        border: 5px solid orange;
+        width: 2095px;
+        margin-left: 153px;
+    }
+
+    /*==============top menu styles===========*/
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 10px;
+    }
+
+    #list {
+        text-align: center;
+        width: 2110px;
+        margin-left: 150px;
+        background-color: gray;
+    }
+
+    a {
+        color: black;
+        font-size: 35px;
+        padding: 1px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    .navigation li {
+        background-color: gray;
+        display: inline-block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /*==============main styles===========*/
+
+    #title {
+        font-size: 85px;
+    }
+
+    #main {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        background-color: black;
+        width: 2260px;
+    }
+
+    #title2 {
+        font-size: 85px;
+    }
+
+    /*==============left-side styles===========*/
+
+    #left-side {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 10px;
+    }
+
+    /*==============image styles===========*/
+
+    img {
+        width: 138px;
+        border: 5px solid black;
+    }
+
+    /*==============top page image styles===========*/
+    /*==============welcome gif=====================*/
+    #image1 {
+        text-align: center;
+        background-color: black;
+    }
+
+    video {
+        width: 1500px;
+    }
+
+    /*==============middle-side styles===========*/
+
+    #middle-side {
+        padding-left: 475px;
+        display: inline-grid;
+        justify-items: center;
+        width: 300px;
+    }
+
+
+    #ul {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .page {
+        background-color: black;
+        font-size: 20px;
+    }
+
+    .page #ul {
+        margin: 5px;
+        padding: 0px;
+        list-style-type: none;
+        color: white;
+        background-color: black;
+        border: 3px solid orange;
+    }
+
+    .page li a {
+        color: white;
+        margin: 5px;
+        text-decoration: none;
+    }
+
+    #title {
+        font-size: 85px;
+    }
+
+    .grid-container {
+        background-color: gray;
+        padding: 0px;
+    }
+    .grid-container2 {
+        display: inline-grid;
+        grid-template-columns: auto auto auto auto auto;
+        background-color: gray;
+        padding: 0px;
+    }
+
+    .grid-item2 {
+        border: 3px solid black;
+    }
+
+    .grid-item h1,
+    .grid-item p {
+        background-color: black;
+        color: white;
+        font-size: 35px;
+        
+    }
+
+    .grid-item2 h1,
+    .grid-item2 p {
+        text-align: center;
+        margin: 0px;
+        border: 5px solid orange;
+        background-color: black;
+        color: white;
+        font-size: 35px;
+    }
+
+    .ul {
+        padding: 0px;
+    }
+    li {
+        list-style: none;
+    }
+    .li {
+        padding: 5px;
+    }
+
+    #asl{
+        background-color: black;
+        color: white;
+        font-size: 35px;
+    }
+    #ish{
+        justify-content: center;
+        background-color: black;
+        color: white;
+        font-size: 35px;
+    }
+
+    #ksl{
+        justify-content: center;
+        background-color: black;
+        color: white;
+        font-size: 35px;
+    }
+
+    #sasl{
+        justify-content: center;
+        background-color: black;
+        color: white;
+        font-size: 35px;
+    }
+
+    #tsl{
+        justify-content: center;
+        background-color: black;
+        color: white;
+        font-size: 35px;
+    }
+
+    #lang {
+        justify-content: center;
+        background-color: black;
+        color: white;
+        font-size: 35px;
+    }
+
+    /*==============footer styles===========*/
+
+    footer {
+        background-color: black;
+        width: 2260px;
+    }
+
+    /*==============bottom-side styles===========*/
+
+    #bottom-side {
+        position: relative;
+        left: 900px;
+        width: 655px;
+        background-color: gray;
+        display: inline-grid;
+    }
+
+    .foot1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        border: solid 5px;
+        justify-content: center;
+    }
+
+    .info {
+        color: white;
+        background-color: black;
+        margin: 5px;
+        width: 305px;
+    }
+
+    .h4 {
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+
+    .add {
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+        font-size: 30px;
+    }
+
+    .web {
+        justify-content: center;
+        text-decoration: underline;
+        font-size: 30px;
+        color: white;
+    }
+
+    .link {
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        background-color: black;
+        margin: 5px;
+        width: 305px;
+    }
+
+    /*==============bottom page styles===========*/
+
+    .bpage {
+        text-align: center;
+        font-size: 35px;
+        color: darkorange;
+        background-color: black;
+        border: 5px solid orange;
+        position: relative;
+        width: 2100px;
+        left: 148px;
+    }
+}

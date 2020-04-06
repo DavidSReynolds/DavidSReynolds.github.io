@@ -1,0 +1,67 @@
+/*==============title tags stlye=========*/
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+/*===========heading stlye==========*/
+.title {
+    font-style: italic bold;
+    font-family: 'Sansita';
+    display: inline;
+    
+
+}
+/*===========title stlye==========*/
+h2 {
+    font-style: italic bold;
+    font-family: 'Sansita';
+    
+}
+
+/*==========body text========*/
+p {
+    font-family: 'helvetica', Arial, sans-serif;
+}
+/*==========nav text==========*/
+nav {
+    font-family: 'helvetica', Arial, sans-serif;
+    background-color: #0e89d5;
+    text-transform: capitalize;
+}
+
+#content-box{
+    background-color: rgba(200, 200, 200, .6);
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 15px;
+
+}
+
+/*=========nav styling==========*/
+ul {
+    list-style-type: inline;
+    margin: 0;
+    padding: 0;
+    align-content: center
+    
+}
+.nav li {
+    display: inline;
+    text-transform: capitalize;
+}
+
+/*============links styles==========*/
+a:link {
+    color: yellow
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: #ffffff;
+}
+

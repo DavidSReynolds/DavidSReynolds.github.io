@@ -1,0 +1,1328 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+
+    /*==============body styles===========*/
+    body {
+        background-color: red;
+    }
+
+    body {
+        background-image: url("/asl.images/international-flag.jpg");
+        background-size: contain;
+        background-repeat: round;
+        width: 390px;
+    }
+
+    /*==============heading styles===========*/
+
+    #header1 {
+        text-align: center;
+        font-size: x-large;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        width: 395px;
+    }
+
+    /*==============top menu styles===========*/
+
+    nav {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: black;
+        font-size: x-large;
+        padding-left: 73px;
+    }
+
+    .navigation {
+        list-style: none;
+        padding: 0;
+        margin: 2px;
+    }
+
+    .navigation li:first-child {
+        display: block;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation a {
+        display: block;
+        color: black;
+        background-color: gray;
+        padding: 0.75rem;
+        width: 300px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .navigation a:hover {
+        color: orange;
+        background-color: black;
+        font-weight: 700;
+    }
+
+    /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+      <ul class="navigation responsive">
+      */
+    .responsive li {
+        display: block;
+    }
+
+    /*==============main styles===========*/
+
+    #main {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        background-color: black;
+        width: 400px;
+    }
+
+    /*==============left-side styles===========*/
+
+    #left-side {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 5px;
+    }
+
+    /*==============image styles===========*/
+
+    img {
+        width: 70px;
+        border: 5px solid black;
+    }
+
+    /*==============top page image styles===========*/
+    #image1 {
+        text-align: center;
+        background-color: black;
+    }
+
+    .source {
+        width: 140px;
+        border: 5px solid black;
+    }
+
+    /*==============middle-side styles===========*/
+
+    #middle-side {
+        padding-left: 87px;
+        display: inline-grid;
+        justify-items: center;
+        margin-left: 0px;
+    }
+
+    #title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #lang {
+        justify-content: center;
+        background-color: black;
+        margin: 10px;
+        border: 5px solid orange;
+    }
+
+    .sign {
+        text-decoration: none;
+        color: white;
+    }
+
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        background-color: gray;
+        padding: 0px;
+    }
+
+    .grid-container2 {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        background-color: gray;
+        padding: 0px;
+    }
+
+    .grid-item2 {
+        border: 3px solid black;
+    }
+
+    .grid-item h1,
+    .grid-item p {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+    }
+
+    .grid-item2 h1,
+    .grid-item2 p {
+        text-align: center;
+        margin: 0px;
+        border: 5px solid orange;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+    }
+
+    .ul {
+        padding: 0px;
+    }
+
+    li {
+        text-align: center;
+        list-style: none;
+        padding: 2px;
+    }
+
+    #asl {
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        margin: 5px;
+        font-size: 20px;
+
+    }
+
+    #ish {
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    #ksl {
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    #sasl {
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    #tsl {
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    .ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .page {
+        background-color: black;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .page .ul {
+        margin: 5px;
+        padding: 0px;
+        list-style-type: none;
+        color: white;
+        border: 3px solid orange
+    }
+
+    .page li a {
+        color: white;
+        margin: 5px;
+        text-decoration: none;
+    }
+
+    /*==============footer styles===========*/
+
+    footer {
+        background-color: black;
+        width: 400px;
+    }
+
+    /*==============bottom-side styles===========*/
+
+    #bottom-side {
+        position: relative;
+        left: 80px;
+        width: 315px;
+        background-color: gray;
+        display: inline-grid;
+    }
+
+    .foot1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        border: solid 5px;
+        justify-content: center;
+    }
+
+    .info {
+        color: white;
+        background-color: black;
+        margin: 5px;
+    }
+
+    .h4 {
+        text-align: center;
+        color: white;
+        font-size: large;
+    }
+
+    .add {
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+        font-size: large;
+    }
+
+    .web {
+        justify-content: center;
+        text-decoration: underline;
+        font-size: large;
+        color: white;
+    }
+
+    .link {
+        text-align: center;
+        font-size: large;
+        color: white;
+        background-color: black;
+        margin: 5px;
+    }
+
+    /*==============bottom page styles===========*/
+
+    .bpage {
+        text-align: center;
+        font-size: large;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        position: relative;
+        width: 315px;
+        left: 80px;
+    }
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+
+    body {
+        background-color: yellow;
+    }
+
+    body {
+        background-image: url("/asl.images/international-flag.jpg");
+        background-size: contain;
+        background-repeat: round;
+        width: 390px;
+    }
+
+    /*==============heading styles===========*/
+
+    #header1 {
+        text-align: center;
+        font-size: x-large;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        width: 599px;
+        margin-left: 48px;
+    }
+
+    /*==============top menu styles===========*/
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 5px;
+    }
+
+    #list {
+        text-align: center;
+        width: 608px;
+        margin-left: 45px;
+        background-color: gray;
+    }
+
+    a {
+        color: black;
+        font-size: 17.5px;
+        padding: 1px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        display: inline-block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /*==============main styles===========*/
+
+    #main {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        background-color: black;
+        width: 653px;
+    }
+
+    /*==============left-side styles===========*/
+
+    #left-side {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 5px;
+    }
+
+    /*==============image styles===========*/
+
+    img {
+        width: 36.5px;
+        border: 5px solid black;
+    }
+
+    /*==============top page image styles===========*/
+    #image1 {
+        text-align: center;
+        background-color: black;
+    }
+
+    .source {
+        width: 145px;
+        border: 5px solid black;
+    }
+
+    /*==============middle-side styles===========*/
+
+    #middle-side {
+        padding-left: 115px;
+        display: inline-grid;
+        justify-items: center;
+        margin-left: 10px;
+    }
+
+    #title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #lang {
+        justify-content: center;
+        background-color: black;
+        margin: 10px;
+        font-size: 25px;
+        border: 5px solid orange;
+    }
+
+    .sign {
+        justify-content: center;
+        color: white;
+    }
+
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        background-color: gray;
+        padding: 0px;
+    }
+
+    .grid-container2 {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        background-color: gray;
+        padding: 0px;
+    }
+
+    .grid-item2 {
+        border: 3px solid black;
+    }
+
+    .grid-item h1,
+    .grid-item p {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+    }
+
+    .grid-item2 h1,
+    .grid-item2 p {
+        text-align: center;
+        margin: 0px;
+        border: 5px solid orange;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+    }
+
+    li {
+        text-align: center;
+        list-style: none;
+        padding: 2px;
+    }
+
+    .ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .page {
+        background-color: black;
+        font-size: 20px;
+    }
+
+    .page .ul {
+        margin: 5px;
+        padding: 0px;
+        list-style-type: none;
+        color: white;
+        border: 3px solid orange
+    }
+
+    .page li a {
+        color: white;
+        margin: 5px;
+        text-decoration: none;
+    }
+
+    /*==============footer styles===========*/
+
+    footer {
+        background-color: black;
+        width: 653px;
+    }
+
+    /*==============bottom-side styles===========*/
+
+    #bottom-side {
+        position: relative;
+        left: 200px;
+        width: 300px;
+        background-color: gray;
+        display: inline-grid;
+    }
+
+    .foot1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        border: solid 5px;
+        justify-content: center;
+    }
+
+    .info {
+        color: white;
+        background-color: black;
+        margin: 5px;
+    }
+
+    .h4 {
+        text-align: center;
+        color: white;
+        font-size: large;
+    }
+
+    .add {
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+        font-size: large;
+    }
+
+    .web {
+        justify-content: center;
+        text-decoration: underline;
+        font-size: large;
+        color: white;
+    }
+
+    .link {
+        text-align: center;
+        font-size: large;
+        color: white;
+        background-color: black;
+        margin: 5px;
+    }
+
+    /*==============bottom page styles===========*/
+
+    .bpage {
+        text-align: center;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        position: relative;
+        width: 605px;
+        left: 45px;
+    }
+
+    .bottom {
+        font-size: medium;
+    }
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-color: purple;
+    }
+
+    body {
+        background-image: url("/asl.images/international-flag.jpg");
+        background-size: contain;
+        background-repeat: round;
+        width: 390px;
+    }
+
+    /*==============heading styles===========*/
+
+    #header1 {
+        text-align: center;
+        font-size: x-large;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        width: 605px;
+        margin-left: 142px;
+    }
+
+    /*==============top menu styles===========*/
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 5px;
+    }
+
+    #list {
+        text-align: center;
+        width: 628px;
+        margin-left: 125px;
+        background-color: gray;
+    }
+
+    a {
+        color: black;
+        font-size: 25px;
+        padding: 1px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        display: inline-block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /*==============main styles===========*/
+
+    #main {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        background-color: black;
+        width: 753px;
+    }
+
+    /*==============left-side styles===========*/
+
+    #left-side {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 5px;
+    }
+
+    /*==============image styles===========*/
+
+    img {
+        width: 130px;
+        border: 5px solid black;
+    }
+
+    /*==============top page image styles===========*/
+    #image1 {
+        text-align: center;
+        background-color: black;
+    }
+
+    .source {
+        width: 180px;
+        border: 5px solid black;
+    }
+
+    /*==============middle-side styles===========*/
+
+    #middle-side {
+        display: inline-grid;
+        justify-items: center;
+        margin-left: 165px;
+    }
+
+    #title {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    #lang {
+        justify-content: center;
+        background-color: black;
+        margin: 10px;
+        border: 5px solid orange;
+    }
+
+    .sign {
+        justify-content: center;
+        color: white;
+    }
+
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        background-color: gray;
+        padding: 0px;
+    }
+
+    .grid-item h1,
+    .grid-item p {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+    }
+
+    li {
+        text-align: center;
+        list-style: none;
+        padding: 2px;
+    }
+
+    .ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .page {
+        background-color: black;
+        font-size: 20px;
+    }
+
+    .page .ul {
+        margin: 5px;
+        padding: 0px;
+        list-style-type: none;
+        color: white;
+        border: 3px solid orange
+    }
+
+    .page li a {
+        color: white;
+        margin: 5px;
+        text-decoration: none;
+    }
+
+    /*==============footer styles===========*/
+
+    footer {
+        background-color: black;
+        width: 753px;
+    }
+
+    /*==============bottom-side styles===========*/
+
+    #bottom-side {
+        position: relative;
+        left: 225px;
+        width: 450px;
+        background-color: gray;
+        display: inline-grid;
+    }
+
+    .foot1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        border: solid 5px;
+        justify-content: center;
+    }
+
+    .info {
+        color: white;
+        background-color: black;
+        margin: 5px;
+    }
+
+    .h4 {
+        text-align: center;
+        color: white;
+        font-size: 28px;
+    }
+
+    .add {
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+        font-size: 28px;
+    }
+
+    .web {
+        justify-content: center;
+        text-decoration: underline;
+        font-size: 28px;
+        color: white;
+    }
+
+    .link {
+        text-align: center;
+        font-size: 28px;
+        color: white;
+        background-color: black;
+        margin: 5px;
+    }
+
+    /*==============bottom page styles===========*/
+
+    .bpage {
+        text-align: center;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        position: relative;
+        width: 610px;
+        left: 137px;
+    }
+
+    .bottom {
+        font-size: x-large;
+    }
+
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1024px) and (max-width: 1280px) {
+    body {
+        background-color: green;
+    }
+
+    body {
+        background-image: url("/asl.images/international-flag.jpg");
+        background-size: contain;
+        background-repeat: round;
+        width: 390px;
+    }
+
+    /*==============heading styles===========*/
+
+    #header1 {
+        text-align: center;
+        font-size: x-large;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        width: 897px;
+        margin-left: 102px;
+    }
+
+    /*==============top menu styles===========*/
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 5px;
+    }
+
+    #list {
+        text-align: center;
+        width: 905px;
+        margin-left: 100px;
+        background-color: gray;
+    }
+
+    a {
+        color: black;
+        font-size: 30px;
+        padding: 1px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        display: inline-block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /*==============main styles===========*/
+
+    #main {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        background-color: black;
+        width: 1005px;
+    }
+
+    /*==============left-side styles===========*/
+
+    #left-side {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 5px;
+    }
+
+    /*==============image styles===========*/
+
+    img {
+        width: 90px;
+        border: 5px solid black;
+    }
+
+    /*==============top page image styles===========*/
+    #image1 {
+        text-align: center;
+        background-color: black;
+    }
+
+    .source {
+        width: 180px;
+        border: 5px solid black;
+    }
+
+    /*==============middle-side styles===========*/
+
+    #middle-side {
+        display: inline-grid;
+        justify-items: center;
+        margin-left: 185px;
+    }
+
+    #title {
+        font-size: 55px;
+        text-align: center;
+    }
+
+    #lang {
+        justify-content: center;
+        background-color: black;
+        margin: 10px;
+        border: 5px solid orange;
+    }
+
+    .sign {
+        font-size: 35px;
+        justify-content: center;
+        color: white;
+    }
+
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: auto auto auto auto;
+        background-color: gray;
+        padding: 0px;
+    }
+
+    .grid-item h1,
+    .grid-item p {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+    }
+
+    li {
+        text-align: center;
+        list-style: none;
+        padding: 2px;
+    }
+
+    .ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .page {
+        background-color: black;
+        font-size: 20px;
+    }
+
+    .page .ul {
+        margin: 5px;
+        padding: 0px;
+        list-style-type: none;
+        color: white;
+        border: 3px solid orange
+    }
+
+    .page li a {
+        color: white;
+        margin: 5px;
+        text-decoration: none;
+    }
+
+    /*==============footer styles===========*/
+
+    footer {
+        background-color: black;
+        width: 1005px;
+    }
+
+    /*==============bottom-side styles===========*/
+
+    #bottom-side {
+        position: relative;
+        left: 350px;
+        width: 450px;
+        background-color: gray;
+        display: inline-grid;
+    }
+
+    .foot1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        border: solid 5px;
+        justify-content: center;
+    }
+
+    .info {
+        color: white;
+        background-color: black;
+        margin: 5px;
+        width: 225px;
+    }
+
+    .h4 {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+
+    .add {
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+        font-size: 25px;
+    }
+
+    .web {
+        justify-content: center;
+        text-decoration: underline;
+        font-size: 25px;
+        color: white;
+    }
+
+    .link {
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        background-color: black;
+        margin: 5px;
+        width: 200px;
+    }
+
+    /*==============bottom page styles===========*/
+
+    .bpage {
+        text-align: center;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        position: relative;
+        width: 900px;
+        left: 100px;
+    }
+
+    .bottom {
+        font-size: x-large;
+    }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+        background-color: blue;
+    }
+
+    body {
+        background-image: url("/asl.images/international-flag.jpg");
+        background-size: contain;
+        background-repeat: round;
+        width: 390px;
+    }
+
+    /*==============heading styles===========*/
+
+    #header1 {
+        text-align: center;
+        font-size: x-large;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        width: 2100px;
+        margin-left: 150px;
+    }
+
+    /*==============top menu styles===========*/
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 5px;
+    }
+
+    #list {
+        text-align: center;
+        width: 2110px;
+        margin-left: 150px;
+        background-color: gray;
+    }
+
+    a {
+        color: black;
+        font-size: 35px;
+        padding: 1px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        display: inline-block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /*==============main styles===========*/
+
+    #main {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        background-color: black;
+        width: 2260px;
+    }
+
+    /*==============left-side styles===========*/
+
+    #left-side {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 5px;
+    }
+
+    /*==============image styles===========*/
+
+    img {
+        width: 138.5px;
+        border: 5px solid black;
+    }
+
+    /*==============top page image styles===========*/
+    #image1 {
+        text-align: center;
+        background-color: black;
+    }
+
+    .source {
+        width: 300px;
+        border: 5px solid black;
+    }
+
+    /*==============middle-side styles===========*/
+
+    #middle-side {
+        display: inline-grid;
+        justify-items: center;
+        margin-left: 425px;
+    }
+
+    #title {
+        font-size: 75px;
+        text-align: center;
+    }
+
+    #lang {
+        justify-content: center;
+        background-color: black;
+        margin: 10px;
+        border: 5px solid orange;
+    }
+
+    .sign {
+        font-size: 35px;
+        justify-content: center;
+        color: white;
+    }
+
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: auto auto auto auto auto;
+        background-color: gray;
+        padding: 0px;
+    }
+
+    .grid-item h1,
+    .grid-item p {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+    }
+
+    li {
+        text-align: center;
+        list-style: none;
+        padding: 2px;
+    }
+
+    .ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .page {
+        background-color: black;
+        font-size: 20px;
+    }
+
+    .page .ul {
+        margin: 5px;
+        padding: 0px;
+        list-style-type: none;
+        color: white;
+        border: 3px solid orange
+    }
+
+    .page li a {
+        color: white;
+        margin: 5px;
+        text-decoration: none;
+    }
+
+    /*==============footer styles===========*/
+
+    footer {
+        background-color: black;
+        width: 2260px;
+    }
+
+    /*==============bottom-side styles===========*/
+
+    #bottom-side {
+        position: relative;
+        left: 950px;
+        width: 475px;
+        background-color: gray;
+        display: inline-grid;
+    }
+
+    .foot1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        border: solid 5px;
+        justify-content: center;
+    }
+
+    .info {
+        color: white;
+        background-color: black;
+        margin: 5px;
+        width: 225px;
+    }
+
+    .h4 {
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+
+    .add {
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+        font-size: 30px;
+    }
+
+    .web {
+        justify-content: center;
+        text-decoration: underline;
+        font-size: 30px;
+        color: white;
+    }
+
+    .link {
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        background-color: black;
+        margin: 5px;
+        width: 200px;
+    }
+
+    /*==============bottom page styles===========*/
+
+    .bpage {
+        text-align: center;
+        color: darkorange;
+        background-color: black;
+        border: 3px solid orange;
+        position: relative;
+        width: 2102px;
+        left: 148px;
+    }
+
+    .bottom {
+        font-size: 30px;
+    }
+
+}
