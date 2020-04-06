@@ -282,7 +282,7 @@
     }
 
     body {
-        background-image: url("asl.images/international-flag.jpg");
+        background-image: url("/intsign/asl.images/international-flag.jpg");
         background-size: contain;
         background-repeat: round;
         width: 390px;
