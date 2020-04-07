@@ -412,7 +412,6 @@
     }
 
     .grid-container {
-        float: left;
         display: inline-grid;
         grid-template-columns: auto;
         background-color: gray;
@@ -433,8 +432,8 @@
     }
 
     #grids {
-        column-count: 2;
-        column-gap: 40px;
+    column-count: 2;
+    column-gap: 40px;
     }
 
     .grid-container1 {
