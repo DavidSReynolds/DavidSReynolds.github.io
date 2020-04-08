@@ -1099,7 +1099,7 @@
         font-size: x-large;
         color: darkorange;
         background-color: black;
-        border: 3px solid orange;
+        border: 5px solid orange;
         width: 2100px;
         margin-left: 150px;
     }
@@ -1162,7 +1162,7 @@
     /*==============image styles===========*/
 
     img {
-        width: 137.5px;
+        width: 138.5px;
         border: 5px solid black;
     }
 
@@ -1186,8 +1186,12 @@
     }
 
     #title {
-        font-size: 75px;
+        font-size: 85px;
         text-align: center;
+    }
+
+    #title2 {
+        font-size: 60px;
     }
 
     #lang {

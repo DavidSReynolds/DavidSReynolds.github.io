@@ -1021,6 +1021,14 @@
         margin-left: 150px;
     }
 
+    #title {
+        font-size: 85px;
+    }
+
+    #title2 {
+        font-size: 85px;
+    }
+
     /*==============top menu styles===========*/
 
     .navigation {

@@ -393,7 +393,7 @@
     }
 
     .title1 {
-        font-size: 75px;
+        font-size: 85px;
     }
 
 
@@ -432,12 +432,11 @@
     }
 
     #grids {
-    column-count: 2;
-    column-gap: 40px;
+    display: grid;
+    grid-template-columns: auto auto;
     }
 
     .grid-container1 {
-        float: left;
         display: inline-grid;
         grid-template-columns: auto auto auto;
         background-color: gray;
@@ -458,11 +457,10 @@
     }
 
     .grid-container2 {
-        float: right;
         display: inline-grid;
         grid-template-columns: auto auto auto;
         background-color: gray;
-        padding: 1px;
+        padding: 0px;
     }
 
     .grid-item2 {

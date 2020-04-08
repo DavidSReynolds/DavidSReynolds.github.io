@@ -1036,7 +1036,7 @@
         text-align: center;
         color: darkorange;
         background-color: black;
-        border: 3px solid orange;
+        border: 5px solid orange;
         width: 2099px;
         margin-left: 153px;
 
@@ -1171,6 +1171,7 @@
 
     .country {
         justify-content: center;
+        border: 5px solid orange;
         color: white;
         background-color: black;
         margin: 10px;
