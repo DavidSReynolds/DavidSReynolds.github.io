@@ -379,6 +379,11 @@
         width: 300px;
     }
 
+    .pic1 {
+        width: 325px;
+        height: 523px;
+    }
+
     .full {
         width: 925px;
     }
@@ -441,6 +446,7 @@
         grid-template-columns: auto auto auto;
         background-color: gray;
         padding: 1px;
+        height: 0%;
     }
 
     .grid-item1 {
@@ -461,6 +467,7 @@
         grid-template-columns: auto auto auto;
         background-color: gray;
         padding: 0px;
+        height: 0%;
     }
 
     .grid-item2 {
@@ -484,6 +491,7 @@
     /*==============footer styles===========*/
 
     footer {
+        bottom: 100%;
         background-color: black;
         width: 2260px;
     }
